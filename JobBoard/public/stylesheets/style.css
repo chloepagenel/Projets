@@ -1,0 +1,113 @@
+a{
+    font-weight: bold;
+}
+
+h6{
+    font-family: "comic sans ms";
+    text-decoration: underline;
+}
+
+.fond {
+    background: linear-gradient(#f89e5a,#ffff00);
+    min-height:100vh;
+}
+
+.pika{
+    z-index: -1;
+    position: fixed;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.lieu{
+    font-style: italic;
+}
+
+.titleForm{
+    font-family: "comic sans ms";
+    color:#ff6d40e3;
+}
+
+.titre{
+    width : 50%;
+    margin : 30px 0 30px 27%;
+}
+
+.connect{
+    float: right ;
+    margin-top:2%;
+    margin-right :5%;
+    font-size:large;
+    font-weight:bold;
+    text-decoration: overline;
+}
+
+.connectprofil{
+    float: right;
+    margin: 0 7% 0 0;
+    font-size:large;
+    font-weight:bold;
+    text-decoration: overline;
+}
+
+.submit{
+    margin: 0 0 50px 0;
+}
+
+.black-text{
+font-size:large;
+}
+
+::placeholder{
+    color:grey;
+}
+
+.bjradministrateur{
+    z-index: -1;
+    font-size: x-large;
+    margin: 20px 0 0 100px;  
+}
+
+.ouverte{
+    
+    position: fixed;
+    float: left;
+    margin-top: 10%;
+}
+   
+    @media screen and (max-width : 768px){
+.pika{
+    display:none;
+}
+
+.titre{
+    display:block;
+    width: 100%;
+}
+}
+
+.bjradministrateur{
+    z-index: -1;
+    font-size: x-large;
+    margin: 10px 0 30px 0;
+}
+
+    @media screen and (min-width : 768px) and (max-width: 1023px){
+.pika{
+    display: none;
+}
+}
+
+    @media screen and (min-width: 1023px){
+.card-panel{
+    min-height: 270px;
+}  
+}
+#hello{
+    float: right;
+      margin-right :100px;
+      margin-top: 10px;
+      font-size:large;
+      font-weight:bold;
+  }

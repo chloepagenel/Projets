@@ -1,0 +1,111 @@
+.login{
+    background-image:url("https://www.10wallpaper.com/wallpaper/2560x1600/1408/torii_leading-High_quality_wallpaper_2560x1600.jpg");
+    background-repeat: no-repeat;
+    position:absolute;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    background-attachment: fixed;
+}
+.inscription{
+    background-color: black;
+    position:absolute;
+    display: flex;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#lycoris{
+    position: absolute;
+    top:81%;
+    left:80%;
+    width: auto;
+    height: auto;
+}
+.form{
+    background-color:rgb(231, 231, 231);
+    border:10px solid rgb(231, 231, 231);;
+    border-radius:25px;
+    padding:10px 30px 20px 30px;
+    position: relative;
+    top: 15vh; left: 80%;
+    text-align: center;
+    width: 200px;
+    height: 350px;
+    margin-left: 1%;
+    margin-right: 500px;
+
+}
+
+
+
+.formI{
+    background-color:rgb(231, 231, 231);
+    border:10px solid rgb(231, 231, 231);;
+    border-radius:25px;
+    padding:10px 30px 20px 30px;
+    position: relative;
+    top: 15vh; left: 80%;
+    text-align: center;
+    width: 200px;
+    height: 350px;
+    margin-left: 1%;
+    margin-right: 500px;
+
+}
+.text{
+    text-align: center;
+    color: black;
+}
+button{
+    width: 55%;
+    border-radius: 5px;
+    background-color: #ff1744;
+    color: white;
+    height: 35px;
+    text-transform: uppercase;
+}
+
+input{
+    width:50%;
+    margin-left:auto;
+    margin-right: auto;
+    height: 25px;
+    border-radius:5px;
+
+}
+
+@media screen and (max-width:1023px){
+    .login{
+        background-size: cover;
+        width: 98%;
+    }
+    .inscription{
+        background-size: cover;
+        width: 98%;
+    }
+    img{
+        width:50%;
+        top:80vh;
+    }
+    #password{
+        margin-left: 0;
+    }
+
+    .form{
+        width: 200px;
+        margin-left: -50%;
+    }
+    .formI{
+        width: 200px;
+        margin-left: -50%;
+    }
+    #lycoris{
+        width: 400px;
+        height: 250px;
+        top:105%;
+        bottom: 0%;
+        left:39%;
+        right: 0%;
+
+    }
+}

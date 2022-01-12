@@ -1,0 +1,48 @@
+.fond{
+    background-color: black;
+position:relative;
+display: flex;
+}
+img{
+    position: absolute;
+    top:60vh;
+    left:0;
+}
+.form{
+    background-color:rgb(231, 231, 231);
+    border:10px solid rgb(231, 231, 231);;
+    border-radius:25px;
+    padding:10px 30px 20px 30px;
+    position: relative;
+    top: 15vh; left: 37%;
+}
+.text{
+    text-align: center;
+    color: rgb(18, 18, 102);
+}
+button{
+   width: 60%;
+   border-radius: 5px;
+   background-color: rgb(112, 216, 248);
+   margin-left: 20%;
+}
+.password{
+    margin-left: 25%;
+}
+
+@media screen and (max-width:1023px){
+    img{
+        width:50%;
+        top:80vh;
+    }
+    .password{
+        margin-left: 0;
+    }
+    button{
+        margin-left:15%;
+    }
+    .form{
+        width: 40%;
+        left:20%;
+    }
+}

@@ -1,0 +1,228 @@
+body{
+    height: auto;
+    width: auto;
+}
+#slide-out{
+    width: 200px;
+}
+
+
+
+#erable{
+image-orientation: flip;
+    margin-left: -12%;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right: 20%;
+    z-index: 0;
+    position: absolute;
+    moz-transform: scale(-1, 1);
+    webkit-transform: scale(-1, 1);
+    o-transform: scale(-1, 1);
+    ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+#erable2{
+    image-orientation: flip;
+    margin-left: -67px;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right: 0px;
+    z-index: 0;
+    position: absolute;
+    moz-transform: scale(-1, 1);
+    webkit-transform: scale(-1, 1);
+    o-transform: scale(-1, 1);
+    ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+h5{
+    text-decoration:underline;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+#nezuko{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: -10%;
+
+}
+
+#nukeDashB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+button{
+    width: 55%;
+    border-radius: 5px;
+    height: 25px;
+}
+.modal { width: 400px !important ;
+    height: 410px !important ;
+    position: absolute;
+}
+#modal2{
+    width: 400px !important ;
+    height: 410px !important ;
+    position: absolute;
+}#modal3{
+     width: 400px !important ;
+     height: 400px !important ;
+     position: absolute;
+ }
+.modal-content{
+    margin-top: 20%;
+    margin-left: 10%;
+    position: relative;
+}
+.feuilles{
+    margin-top: -110px;
+    margin-right: -15px;
+    margin-left: -50px;
+    position: absolute;
+}
+#chibimeteo{
+    margin-left: -40px;
+    margin-top: -50px;
+   padding-top: -5px;
+    position: absolute;
+}
+#musan{
+    margin-left: -40px;
+    margin-top: -80px;
+    padding-top: -10px;
+    padding-bottom: -30px;
+    margin-bottom: 0;
+    position: absolute;
+}
+#musan2{
+    margin-left: -40px;
+    margin-top: -80px;
+    padding-top: -10px;
+    padding-bottom: -30px;
+    margin-bottom: 0;
+    position: absolute;
+}
+#chibiresto{
+    margin-left: -50px;
+    margin-top: -30px;
+    padding-top: -10px;
+    padding-bottom: -30px;
+    margin-bottom: 0;
+    position: absolute;
+}
+#chibiciné{
+    margin-left: -50px;
+    margin-top: -70px;
+    padding-top: -10px;
+    padding-bottom: -30px;
+    margin-bottom: 0;
+    position: absolute;
+}
+#chibiciné2{
+    margin-left: -50px;
+    margin-top: -70px;
+    padding-top: -10px;
+    padding-bottom: -30px;
+    margin-bottom: 0;
+    position: absolute;
+}
+#chibiwebtoon{
+    margin-left: -40px;
+    margin-top: -80px;
+    padding-top: -10px;
+    padding-bottom: -30px;
+    margin-bottom: 0;
+    position: absolute;
+}
+.webtoonImage{
+    margin: 10px; !important;
+    padding: 10px; !important;
+    position: fixed;
+}
+#widgetresto{
+    margin-top: 0px;
+}
+#widgetwebtoon{
+    width:200px ;
+    height: 200px;
+    overflow-y: auto;
+}
+#widgetcineall{
+    width:300px ;
+    height: 200px;
+    overflow-y: auto;
+}
+#restos{
+    width:200px ;
+    height: 140px;
+    overflow-y: auto;
+}
+#cineall{
+    margin-top: 0px;
+}
+#widgetciné{
+    margin-top: 0px;
+}
+#itsukiWebtoon{
+    margin-left: -40px;
+    margin-top: -80px;
+    padding-top: -10px;
+    padding-bottom: -30px;
+    margin-bottom: 0;
+    position: absolute;
+}
+.widgetSteam{
+    width:200px ;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.gw2wvw{
+    padding: 1rem 1.5rem;
+}
+@media screen and (min-width:1023px) {
+#erable2{
+    display: none;
+}}
+@media screen and (max-width:1023px) {
+    #erable {
+        display: none;
+    }
+    /*.modal { width: 400px !important ;
+        height: 400px !important ;
+        position: absolute;
+    }*/
+    .feuilles{
+        margin-top: -110px;
+        margin-right: -15px;
+        margin-left: -50px;
+        position: absolute;
+    }
+    #modal2{
+        width: 400px !important ;
+        height: 400px !important ;
+        position: absolute;
+    }
+    #modal3{
+        width: 400px !important ;
+        height: 390px !important ;
+        position: absolute;
+    }
+    #modalSteam2{
+        width: 400px; !important;
+        height: 400px;!important;
+        position: absolute;
+    }
+    #modalSteam{
+        width: 400px; !important;
+        height: 400px;!important;
+        position: absolute;
+    }
+}
